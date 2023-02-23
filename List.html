@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>List</title>
+    <style>
+         #authors{
+            margin-top: 10px;
+            margin-left: 30px;
+            word-spacing: 2px;
+         }
+    </style>
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span><img src="img/download.png" width="94px" alt=""></span>
+            </a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="./addblog.html">Add Blog</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="./List.html">List</a></li>
+                <li><a href="./users.html">Users</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder=" Search">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="contact-content font1 max-width-1 m-auto">
+        <div class="max-width-1 m-auto mx-1">
+            <div class="home-articles " >
+                <h2 class="p">List Of Posts</h2>
+                <div id="authors" ></div><br>
+            </div>
+        </div>
+    </div>
+    <script src="js/list.js"></script>
+    <div class="footer">
+        <p>Copyright &copy; AnnalectBlog.com </p>
+        <a href=>Vector Credits: Annalect</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Annnalect Blog</title>
+    <style>
+        .post{
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span><img src="img/download.png" width="94px" alt=""></span>
+            </a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="./addblog.html">Add Blog</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="./List.html">List</a></li>
+                <li><a href="/users.html">Users</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Search">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="home-articles max-width-1 m-auto font2">
+        <h1>Search Results</h1><br>
+        <section id ="posts"></section>
+        <template id="post-template">
+            <div class="post">
+                <img src="" alt="" class="post__img">
+                <a href="./blogpost.html" style="text-decoration: none;"><h2 class="post__title"></h2></a><br>
+               <p class="post__body"></p>
+            </div>
+        </template>
+        <script src="js/main.js"></script>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; AnnalectBlog.com </p>
+         <a href=>Vector Credits: Annalect</a> 
+    </div>
+</body>
+</html>

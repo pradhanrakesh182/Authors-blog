@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blogpost.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Blogs</title>
+    <style>
+        .home-articles{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span><img src="img/download.png" width="94px" alt=""></span>
+            </a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#">Add Blog</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="./List.html">List</a></li>
+                <li><a href="/users.html">Users</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder="Search">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+    </div>
+    <div class="post-img">
+        <img src="img/11.svg" alt="">
+    </div>
+    <div class="m-auto blog-post-content max-width-2 m-auto my-2">
+        <div class="home-articles max-width-1 m-auto  user font1    ">
+            <h1>Blog Posts</h1><br>
+            <div id="posts"></div><br><br>
+        </div>
+    </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; AnnalectBlog.com </p>
+        <a href=>Vector Credits: Annalect</a>
+    </div>
+    <script src="js/main.js"></script>
+    <script src="js/bodycomment.js"></script>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <title>Users</title>
+    <style>
+        .user {
+            margin-top: 20px;
+            line-height: 30px;
+
+        }
+
+        .table1 {
+            align-content: center;
+            column-gap: 10px;
+            padding: 10px;
+            border-spacing: 20px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navigation max-width-1 m-auto">
+        <div class="nav-left">
+            <a href="/">
+                <span><img src="img/download.png" width="94px" alt=""></span>
+            </a>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="./addblog.html">Add blog</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+                <li><a href="./List.html">List</a></li>
+                <li><a href="/users.html">Users</a></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <form action="/search.html" method="get">
+                <input class="form-input" type="text" name="query" placeholder=" Search">
+                <button class="btn">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div class="max-width-1 m-auto">
+        <hr>
+        <div class="contact-content font1 max-width-1 m-auto"> 
+            
+                <div class="content">
+                    <h1>Users</h1><br>
+                    <table id="users" class="table1"></table><br>
+                </div>
+            
+            <script src="js/users.js"></script>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; AnnalectBlog.com </p>
+        <a href=>Vector Credits: Annalect</a>
+    </div>
+</body>
+</html>
